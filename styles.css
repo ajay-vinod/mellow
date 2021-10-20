@@ -1,0 +1,277 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.heading {
+  font-family: "Cardo", serif;
+  font-size: 9rem;
+  color: #fff;
+}
+
+.sub-heading {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 12%;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url("./images/Title-image.jpg");
+  background-size: cover;
+}
+
+#title .container-fluid {
+  padding: 2% 2% 20%;
+}
+
+/* About Section */
+
+.about-title {
+  font-size: 1.5rem;
+}
+
+.about-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #808080;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #000000;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  color: #fff;
+}
+
+.slide1{
+  background-image: url(./images/carousel-1.jpg);
+  background-size: cover;
+}
+
+.slide2{
+  background-image: url(./images/carousel-2.jpg);
+  background-size: cover;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Menu Section */
+
+.menu-title{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.menu-div{
+  padding: 2% 2%;
+}
+
+.card-body{
+  padding: 1vw;
+}
+
+.card-div{
+  position: relative;
+  background-color: #000;
+}
+
+.card-div:hover .menu-img {
+  opacity: 0.6;
+}
+
+.card-div:hover .middle {
+  opacity: 1;
+}
+
+.menu-img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 2% 5%;
+  font-weight: 400;
+}
+
+.card {
+  height: 100%;
+}
+
+/* Store Section */
+
+#store{
+  background-image: url(./images/store-img.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.store-title{
+  font-size: 3rem;
+  padding-bottom: 4%;
+}
+
+/* Chefs Section */
+
+.chef-title{
+  font-size: 3rem;
+}
+
+.chef-name {
+  font-size: 1.2rem;
+}
+
+.chef-img {
+  width: 75%;
+  border-radius: 100%;
+  margin: 3rem 0 1rem;
+}
+
+/* Contact Section */
+
+#contact{
+  background-image: url(./images/footer-img.jpg);
+  background-size: cover;
+}
+
+#contact .container-fluid{
+  padding: 4% 0 2%;
+}
+
+#contact p{
+  color: #fff;
+  font-size: 1rem;
+}
+
+.social-icon {
+  margin: 1rem 0.75rem 4rem;
+  color: #fff;
+}
+
+.social-icon:hover{
+  color: red;
+}
+
+.ajay{
+  color: red;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+
+  .heading {
+    font-size: 4.5rem;
+  }
+
+  .sub-heading{
+    font-size: 1.4rem;
+  }
+
+  #title .btn{
+    font-size: 0.9rem;
+  }
+
+  .testimonial-text{
+    font-size: 1.5rem;
+  }
+
+  #menu .container-fluid{
+    padding: 7% 3%;
+  }
+  
+  .about-title{
+    font-size: 1.25rem;
+  }
+
+  .menu-title {
+  font-size: 2rem;
+  }
+
+  .chef-title {
+    font-size: 2rem;
+  }
+
+  .text{
+    font-size: 0.75rem;
+  }
+
+  .store-title{
+    font-size: 1.5rem;
+  }
+
+  .chef-img{
+    width: 40%;
+  }
+}
